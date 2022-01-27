@@ -1,8 +1,4 @@
-# HF2-Meta
-
-**TODO**
-- `main.py`
-- Methodologies
+# FedSIM
 
 ## Environment Requirements
 
