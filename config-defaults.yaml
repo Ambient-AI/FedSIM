@@ -1,0 +1,39 @@
+alpha:
+  desc: The client-side inner-loop learning rate
+  value: 0.01
+beta:
+  desc: The client-side outer-loop learning rate
+  value: 0.1
+client_num_per_round:
+  desc: The number of sample workers per communication round
+  value: 10
+comm_rounds:
+  desc: The number of communication rounds
+  value: 2000
+dataset:
+  desc: The benchmark to train on
+  value: cifar100
+delta:
+  desc: The delta value for calculating Hessian-free grads
+  value: 0.1
+inner_epochs:
+  desc: The number of local fine-tuning rounds
+  value: 5
+lambda_reg:
+  desc: The lambda regularizer for l2-regularization loss
+  value: 1
+lr:
+  desc: The server learning rate
+  value: 0.1
+method:
+  desc: Type of personalized FL
+  value: fedsim
+random_seed:
+  desc: Random seed
+  value: 1111
+server_partition:
+  desc: The proportion of partitioned data in the server
+  value: 5
+test_client_num:
+  desc: The number of sampled test clients to evaluate model
+  value: 5
